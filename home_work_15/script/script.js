@@ -21,6 +21,13 @@ formNode.addEventListener("submit", (event) => {
 const randomNumber = Math.floor((Math.random() * (100 - 1 +1)+1));
 console.log(randomNumber);
 
+// const randomNumber1 = Math.round((Math.random() * (255 - 25 +1)+25)); 
+// const randomNumber2 = Math.round((Math.random() * (255 - 25 +1)+25));
+// const randomNumber3 = Math.round((Math.random() * (255 - 25 +1)+25));
+// console.log(randomNumber1);
+// const color = `rgb(${randomNumber1}, ${randomNumber2}, ${randomNumber3})`;
+// console.log(color);
+
 function getPerson(name, lastName, age) {
   const container = document.createElement("div");
   const nameNote = document.createElement("p");
